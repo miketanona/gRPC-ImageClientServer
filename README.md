@@ -3,7 +3,7 @@
 This project demonstrates a cross-platform image processing system using gRPC, OpenCV, and multiple clients.
 
 ### 🔗 Jump to:
-- [👉 C# Client Output Folder](./ImageProcessorCSharpClient/Output)
+- [👉 C# Client Output Folder](./ImageProcessorCSharpClient/SampleResults)
 - [🔧 Setup Instructions](#-setup-instructions)
 
 ---
