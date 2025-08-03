@@ -75,3 +75,4 @@ C:/vcpkg/
 *.DS_Store
 Thumbs.db
 ehthumbs.db
+opencv_world*.dll
