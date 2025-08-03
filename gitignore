@@ -1,0 +1,77 @@
+# ========================
+# Visual Studio Build Files
+# ========================
+**/x64/
+**/Debug/
+**/Release/
+**/bin/
+**/obj/
+**/*.obj
+**/*.exe
+**/*.dll
+**/*.lib
+**/*.pdb
+**/*.iobj
+**/*.ipdb
+**/*.tlog
+**/*.log
+**/*.db
+**/*.cache
+**/*.recipe
+*.aps
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.FileListAbsolute.txt
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.AssemblyInfoInputs.cache
+*.genruntimeconfig.cache
+*.CoreCompileInputs.cache
+*.GenerateResource.cache
+*.assets.cache
+*.AssemblyReference.cache
+
+# ========================
+# Intermediate & Precompiled
+# ========================
+*.pch
+*.idb
+*.ipch/
+*.nuget/
+*.cache
+*.params_idx.c.in
+
+# ========================
+# IDE folders & Indexes
+# ========================
+.vs/
+**/.vs/
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.vscode/
+
+# ========================
+# External Dependencies
+# ========================
+C:/OpenCV/
+C:/vcpkg/
+
+# ========================
+# Optional Output Folders
+# ========================
+**/Output/
+
+# ========================
+# System Files
+# ========================
+*.DS_Store
+Thumbs.db
+ehthumbs.db

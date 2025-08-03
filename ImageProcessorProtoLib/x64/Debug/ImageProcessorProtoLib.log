@@ -1,0 +1,759 @@
+﻿  imageprocessor.grpc.pb.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(53,26): error C2039: 'string_view': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(29,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(53,26): error C2061: syntax error: identifier 'string_view'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,20): error C2146: syntax error: missing ';' before identifier 'ClippedSubstr'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,45): error C2825: 'absl::lts_20250127::string_view': must be a class or namespace when followed by '::'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,58): error C2510: 'string_view': left of '::' must be a class/struct/union
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,64): error C2143: syntax error: missing ';' before '{'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,64): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,11): error C2737: 'absl::lts_20250127::string_view': constexpr object must be initialized
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,11): error C2373: 'absl::lts_20250127::string_view': redefinition; different type modifiers
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,8):
+      see declaration of 'absl::lts_20250127::string_view'
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,23): error C2146: syntax error: missing ';' before identifier 'NullSafeStringView'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\vlog_config.h(128,33): error C2146: syntax error: missing ')' before identifier 'file'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\vlog_config.h(140,38): error C2146: syntax error: missing ')' before identifier 'vmodule'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\vlog_config.h(150,38): error C2146: syntax error: missing ')' before identifier 'module_pattern'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(149,46): error C2061: syntax error: identifier 'string_view'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(151,27): error C2065: 'value': undeclared identifier
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(151,34): error C2065: 'buf': undeclared identifier
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(159,54): error C2061: syntax error: identifier 'string_view'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(161,35): error C2065: 'value': undeclared identifier
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(161,42): error C2065: 'buf': undeclared identifier
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(276,21): error C3646: 'string_value': unknown override specifier
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(276,33): error C2059: syntax error: '('
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(276,42): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(85,12): error C2039: 'in_place_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(85,1): error C2873: 'in_place_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(86,12): error C2039: 'in_place': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(86,1): error C2873: 'in_place': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(102,12): error C2039: 'in_place_type': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(102,1): error C2873: 'in_place_type': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(103,12): error C2039: 'in_place_type_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(103,1): error C2873: 'in_place_type_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(119,12): error C2039: 'in_place_index': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(119,1): error C2873: 'in_place_index': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(120,12): error C2039: 'in_place_index_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(120,1): error C2873: 'in_place_index_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(56,12): error C2039: 'get_if': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(56,1): error C2873: 'get_if': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(57,12): error C2039: 'holds_alternative': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(57,1): error C2873: 'holds_alternative': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(58,12): error C2039: 'monostate': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(58,1): error C2873: 'monostate': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(59,12): error C2039: 'variant': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(59,1): error C2873: 'variant': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(60,12): error C2039: 'variant_alternative': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(60,1): error C2873: 'variant_alternative': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(61,12): error C2039: 'variant_alternative_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(61,1): error C2873: 'variant_alternative_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(62,12): error C2039: 'variant_npos': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(62,1): error C2873: 'variant_npos': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(63,12): error C2039: 'variant_size': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(63,1): error C2873: 'variant_size': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(64,12): error C2039: 'variant_size_v': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(64,1): error C2873: 'variant_size_v': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(65,12): error C2039: 'visit': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(65,1): error C2873: 'visit': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(38,24): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(38,24): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(38,74): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(42,21): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(42,21): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(42,54): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(50,21): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(50,21): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(50,53): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(54,23): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(54,23): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(54,64): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(60,9): error C3646: 'value': unknown override specifier
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(60,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,45): error C2039: 'Varint': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,45): error C2061: syntax error: identifier 'Varint'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(75,45): error C2039: 'I64': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(75,45): error C2061: syntax error: identifier 'I64'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(75,12): error C2535: 'size_t absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()(void)': member function already defined or declared
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,12):
+      see declaration of 'absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(84,45): error C2039: 'I32': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(84,45): error C2061: syntax error: identifier 'I32'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(84,12): error C2535: 'size_t absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()(void)': member function already defined or declared
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,12):
+      see declaration of 'absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(91,16): error C2039: 'visit': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(91,67): error C2039: 'value': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(91,16): error C3861: 'visit': identifier not found
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(515,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(516,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(517,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(518,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(519,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(520,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(535,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(536,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(537,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(538,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(539,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(540,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(566,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(567,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(568,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(569,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(570,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(571,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(725,38): error C2146: syntax error: missing ')' before identifier 'dur_string'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(732,38): error C2146: syntax error: missing ')' before identifier 'text'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(1060,38): error C2146: syntax error: missing ')' before identifier 'text'
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(1060,38): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file '../protos/imageprocessor.grpc.pb.cc')
+  
+  imageprocessor.pb.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(53,26): error C2039: 'string_view': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(29,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(53,26): error C2061: syntax error: identifier 'string_view'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,8): error C7525: inline variables require at least '/std:c++17'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,20): error C2146: syntax error: missing ';' before identifier 'ClippedSubstr'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,45): error C2825: 'absl::lts_20250127::string_view': must be a class or namespace when followed by '::'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,58): error C2510: 'string_view': left of '::' must be a class/struct/union
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,64): error C2143: syntax error: missing ';' before '{'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(754,64): error C2447: '{': missing function header (old-style formal list?)
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,11): error C2737: 'absl::lts_20250127::string_view': constexpr object must be initialized
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,11): error C2373: 'absl::lts_20250127::string_view': redefinition; different type modifiers
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(753,8):
+      see declaration of 'absl::lts_20250127::string_view'
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,23): error C2146: syntax error: missing ';' before identifier 'NullSafeStringView'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\strings\string_view.h(764,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\vlog_config.h(128,33): error C2146: syntax error: missing ')' before identifier 'file'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\vlog_config.h(140,38): error C2146: syntax error: missing ')' before identifier 'vmodule'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\vlog_config.h(150,38): error C2146: syntax error: missing ')' before identifier 'module_pattern'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(149,46): error C2061: syntax error: identifier 'string_view'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(151,27): error C2065: 'value': undeclared identifier
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(151,34): error C2065: 'buf': undeclared identifier
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(159,54): error C2061: syntax error: identifier 'string_view'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(161,35): error C2065: 'value': undeclared identifier
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(161,42): error C2065: 'buf': undeclared identifier
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(276,21): error C3646: 'string_value': unknown override specifier
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(276,33): error C2059: syntax error: '('
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\proto.h(276,42): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(85,12): error C2039: 'in_place_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(85,1): error C2873: 'in_place_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(86,12): error C2039: 'in_place': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(86,1): error C2873: 'in_place': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(102,12): error C2039: 'in_place_type': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(102,1): error C2873: 'in_place_type': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(103,12): error C2039: 'in_place_type_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(103,1): error C2873: 'in_place_type_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(119,12): error C2039: 'in_place_index': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(119,1): error C2873: 'in_place_index': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(120,12): error C2039: 'in_place_index_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\utility\utility.h(120,1): error C2873: 'in_place_index_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\variant(12): warning STL4038: The contents of <variant> are available only with C++17 or later.
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(56,12): error C2039: 'get_if': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(56,1): error C2873: 'get_if': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(57,12): error C2039: 'holds_alternative': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(57,1): error C2873: 'holds_alternative': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(58,12): error C2039: 'monostate': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(58,1): error C2873: 'monostate': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(59,12): error C2039: 'variant': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(59,1): error C2873: 'variant': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(60,12): error C2039: 'variant_alternative': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(60,1): error C2873: 'variant_alternative': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(61,12): error C2039: 'variant_alternative_t': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(61,1): error C2873: 'variant_alternative_t': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(62,12): error C2039: 'variant_npos': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(62,1): error C2873: 'variant_npos': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(63,12): error C2039: 'variant_size': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(63,1): error C2873: 'variant_size': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(64,12): error C2039: 'variant_size_v': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(64,1): error C2873: 'variant_size_v': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(65,12): error C2039: 'visit': is not a member of 'std'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\array(19,1):
+      see declaration of 'std'
+  
+C:\vcpkg\installed\x64-windows\include\absl\types\variant.h(65,1): error C2873: 'visit': symbol cannot be used in a using-declaration
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(38,24): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(38,24): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(38,74): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(42,21): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(42,21): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(42,54): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(50,21): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(50,21): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(50,53): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(54,23): error C2039: 'variant': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(54,23): error C2061: syntax error: identifier 'variant'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(54,64): error C2059: syntax error: '>'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(60,9): error C3646: 'value': unknown override specifier
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(60,3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,45): error C2039: 'Varint': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,45): error C2061: syntax error: identifier 'Varint'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(75,45): error C2039: 'I64': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(75,45): error C2061: syntax error: identifier 'I64'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(75,12): error C2535: 'size_t absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()(void)': member function already defined or declared
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,12):
+      see declaration of 'absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(84,45): error C2039: 'I32': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(84,45): error C2061: syntax error: identifier 'I32'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(84,12): error C2535: 'size_t absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()(void)': member function already defined or declared
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(71,12):
+      see declaration of 'absl::lts_20250127::log_internal::BufferSizeForStructuredProtoField::BufferSizeVisitor::operator ()'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(91,16): error C2039: 'visit': is not a member of 'absl'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(30,11):
+      see declaration of 'absl'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(91,67): error C2039: 'value': is not a member of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+      C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(35,8):
+      see declaration of 'absl::lts_20250127::log_internal::StructuredProtoField'
+  
+C:\vcpkg\installed\x64-windows\include\absl\log\internal\structured_proto.h(91,16): error C3861: 'visit': identifier not found
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(515,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(516,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(517,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(518,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(519,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(520,39): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(535,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(536,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(537,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(538,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(539,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(540,46): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(566,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(567,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(568,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(569,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(570,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\civil_time.h(571,38): error C2146: syntax error: missing ')' before identifier 's'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(725,38): error C2146: syntax error: missing ')' before identifier 'dur_string'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(732,38): error C2146: syntax error: missing ')' before identifier 'text'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(1060,38): error C2146: syntax error: missing ')' before identifier 'text'
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+C:\vcpkg\installed\x64-windows\include\absl\time\time.h(1060,38): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file '../protos/imageprocessor.pb.cc')
+  
+  Generating Code...
