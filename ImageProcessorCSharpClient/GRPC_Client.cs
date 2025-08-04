@@ -74,39 +74,6 @@ namespace ImageProcessorCSharpClient
             }
         }
 
-
-
-        //private async void button1_Click(object sender, EventArgs e)
-        //{
-
-        //    try
-        //    {
-        //        var channel = GrpcChannel.ForAddress("http://localhost:50051");
-
-        //        var client = new ImageProcessor.ImageProcessorClient(channel);
-
-        //        //var imageBytes = File.ReadAllBytes("input.jpg");
-
-        //        var imageBytes = File.ReadAllBytes("C:\\CPlusPlus\\ImageProcessorCSharpClient\\Pics\\FlatBabcia.png");
-
-
-        //        var request = new ImageRequest
-        //        {
-        //            Operation = "grayscale",
-        //            ImageData = ByteString.CopyFrom(imageBytes)
-        //        };
-
-        //        var response = await client.ProcessImageAsync(request);
-
-        //        File.WriteAllBytes("C:\\CPlusPlus\\ImageProcessorCSharpClient\\Pics\\FlatBabcia-out.jpg", response.ProcessedImage.ToByteArray());
-
-        //        MessageBox.Show("Image processed successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show($"Error: {ex.Message}", "Processing Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //    }
-        //}
     }
 
 }
