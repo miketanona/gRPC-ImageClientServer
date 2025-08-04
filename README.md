@@ -1,6 +1,6 @@
 # Image Processor with gRPC
 
-A C#/.NET Client and C++ gRPC Server.  The Client app loads a local image, and sends it to the server via gRPC which transforms the image using OpenCV based on user selection (grayscale, blur, or edge), and redisplays the image in the adjacent image box.
+C#/.NET Client and C++ gRPC Server.  The Client app loads a local image via a file open dialog and sends it to the server through gRPC which transforms the image using OpenCV based on user selection (grayscale, blur, or edge) and redisplays the image in the adjacent image box.
 
 ## 📁 Project Structure
 
