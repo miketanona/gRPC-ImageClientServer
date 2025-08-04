@@ -1,12 +1,6 @@
 # Image Processor with gRPC
 
-This project demonstrates a cross-platform image processing system using gRPC, OpenCV, and multiple clients.
-
-### 🔗 Jump to:
-- [👉 C# Client Output Folder](./ImageProcessorCSharpClient/SampleResults)
-- [🔧 Setup Instructions](#-setup-instructions)
-
----
+A C#/.NET Client and C++ gRPC Server.  The Client app loads a local image, and sends it to the server via gRPC which transforms the image using OpenCV based on user selection (grayscale, blur, or edge), and redisplays the image in the adjacent image box.
 
 ## 📁 Project Structure
 
@@ -14,7 +8,6 @@ This project demonstrates a cross-platform image processing system using gRPC, O
 googleRPCv2/
 ├── ImageProcessorServer/           # C++ gRPC server (uses OpenCV)
 ├── ImageProcessorProtoLib/         # Static lib for proto-generated gRPC C++ code
-├── ImageProcessorClientMFC/        # Optional MFC C++ GUI client
 ├── ImageProcessorCSharpClient/     # Standalone C# WinForms client
 ├── protos/                         # .proto definitions
 └── README.md
@@ -66,7 +59,6 @@ The repository **excludes**:
    - Select an operation from dropdown.
    - Send to the gRPC server.
    - View the result in the second image box.
-
 ---
 
 ### 🧰 ImageProcessorServer + ProtoLib (C++)
