@@ -30,16 +30,6 @@ public:
             return Status(grpc::StatusCode::INVALID_ARGUMENT, "Image decoding failed.");
         }
 
-        //// Apply transformation based on the operation
-        //cv::Mat output_img;
-        //if (request->operation() == "grayscale")
-        //{
-        //    cv::cvtColor(input_img, output_img, cv::COLOR_BGR2GRAY);
-        //}
-        //else
-        //{
-        //    return Status(grpc::StatusCode::INVALID_ARGUMENT, "Unknown operation");
-        //}
 
         // Apply transformation based on the operation
         cv::Mat output_img;
